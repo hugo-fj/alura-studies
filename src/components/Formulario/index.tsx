@@ -29,7 +29,7 @@ function Formulario(){
                 />
             </div>
 
-            <Botao/>
+            <Botao texto='Adicionar'/>
         </form>
     )
 }

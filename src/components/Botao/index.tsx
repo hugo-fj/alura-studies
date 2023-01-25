@@ -1,10 +1,11 @@
 import React from "react";
 import style from './Botao.module.scss';
 
-function Botao(){
+function Botao(props:{texto: string}){
+    const{texto}=props
     return(
         <button className={style.botao}>
-            Botão
+            {texto}
         </button>
     )
 }
